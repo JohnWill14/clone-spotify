@@ -29,64 +29,237 @@
             color: transparent;
         }
         #curta{
-           /* background-color: #ff4632;*/
-           background-image: url("imagem/background-curtir.png");
-           display: block;
-           background-size:100% 450px;
-           background-repeat: no-repeat;
-           width: 100%;
-           height: 450px;
-        }
-        .links  a{
-            padding: 28px 17px; 
-            color: #fff;
-            size: 16px;
-            letter-spacing: 0;
-            text-transform: capitalize;
-            display: block;
-            text-decoration: none;
-            font-weight: 700;
-        }
-        .links  a:hover{
-            color: #1DB954;
-        }
-        .links-dark  a{
-            padding: 28px 17px; 
-            color: #000;
-            size: 16px;
-            letter-spacing: 0;
-            text-transform: capitalize;
-            display: block;
-            text-decoration: none;
-            font-weight: 700;
-        }
-        .links-dark  a:hover{
-            color: #1DB954;
-        }
-        #barra{
-            border-color: #fff;
-            border-right: 100px;
-        }
+          background-color: #ff4632;
+          padding-top: 100px;
+          /*background-image: url("imagem/background-curtir.png");*/
+          display: block;
+          background-size:100% 520px;
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 520px;
+          padding: 48px 15px 48px 15px;
+      }
+      #curta{
+        color: black;
+    }
+    #curta h1{
 
+        font-weight: bold;
+        line-height: 1.2;
+        font-family: spotify-circular, Helvetica, Arial, sans-serif;
+        font-size: 50px;
+        max-width: 100%;
+        width:600px;
+    }
+    #curta h2{
+        font-size: 27px;
+        padding: 35px 0px 35px 0px;
+    }
+    #curta button{
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        background-color: black;
+        border-radius: 25px;
+        padding: 12px 60px 12px 60px;
+        font-size: 14px;
+        margin-bottom: 5%;
+    }
+    #curta span{
+        font-size:12px;
+        padding-top: 35px;
+    }
+    #imagem-balao{
+        width: 100%;
+        float: right;
+    }
+    #coluna-links{
+        background-color:  #1b1b1b;
 
-        .linha-vertical {
-            display: inline-block;
-            height: 16px;
-            width: 1px;
-            background: currentColor;
-            margin: auto 17px;
-        }
-        .centro {
-            position:absolute;
-            top:50%;
-            left:50%;
-            margin-top:-50px;
-            margin-left:-50px;
-        }
-        body{
-            background-color: #1c273a;
-        }
-    </style>
+    }
+    #conta{
+        background-color: #fff;
+    }
+    
+    #botoes ul li{
+        background-color: #000;
+    }
+    #campos{
+        color: black;
+        margin-top: 5%;
+    }
+    #campos h1{
+        font-size: 48px;
+        line-height: 56px;
+    }
+    
+    #campos  h2{
+        font-size: 2rem;
+        margin-top: 4%;
+    }
+    #plano{
+
+        display:block;
+        /*height: 230px;*/
+        height: 200%;
+    }
+    #plano .card-body{
+        background-image: linear-gradient(to right, DarkOrchid , purple);
+        font-family: Circular, Helvetica, Arial, sans-serif !important;
+        color: #fff;
+        font-size: 48px;
+        
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    #painel-vertical{
+        background-color: #1b1b1b;
+        margin-left: 1%;
+        width: 70% !important;
+        margin-right: 2%;
+    }
+    #ouca{
+        padding: 0px 0px 1em;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin-left: 5%;
+    }
+    .campo-tabela{
+        color: #C0C0C0;
+        font-size: 16px;
+        line-height: 1.5;
+        border-spacing: 2px;
+    }
+    .links  a{
+        padding: 28px 17px; 
+        color: #fff;
+        size: 16px;
+        letter-spacing: 0;
+        text-transform: capitalize;
+        display: block;
+        text-decoration: none;
+        font-weight: 700;
+        border-bottom: 2px solid gray;
+    }
+    .links  a:hover{
+        color: #1DB954;
+    }
+    .links-dark  a{
+        padding: 28px 17px; 
+        color: #000;
+        size: 16px;
+        letter-spacing: 0;
+        text-transform: capitalize;
+        display: block;
+        text-decoration: none;
+        font-weight: 700px;
+    }
+    .links-dark  a:hover{
+        color: #1DB954;
+    }
+    #barra{
+        border-color: #fff;
+        border-right: 100px;
+    }
+    .linha-vertical {
+        display: inline-block;
+        height: 16px;
+        width: 1px;
+        background: currentColor;
+        margin: auto 17px;
+    }
+    .centro {
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-top:-50px;
+        margin-left:-50px;
+    }
+    .lista-group a{
+        font-family: Circular, Helvetica, Arial, sans-serif !important;
+        background-color: #1b1b1b;
+        border-top: 1px solid gray;
+        color: gray;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .lista-group a:hover, a:active{
+        background-color: #1b1b1b !important;
+        border-left: 10px solid !important;
+        border-color:#1DB954 !important;
+        color: gray !important;
+        
+    }
+    .lista-footer a{
+        background-color: #000 !important;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+        
+    }
+    .lista-footer a:hover, a:active{
+        color:#1DB954 !important;
+        
+    }
+    .test{
+        height: 100%;
+    }
+    body{
+        background-color: #1c273a;
+    }
+    main{
+        padding: 0px 10px 0px 10px;
+    }
+    .img-user{
+        background-color:  #1b1b1b;
+        width: 100%;
+        height: 120px;
+    }
+    .img-user img{
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+
+        margin-top:15px;
+    }
+    #links-footer{
+        padding-top: 5%;
+    }
+    #links-footer .list-group .list-group-item{
+        background-color: #000;
+    }
+    #redes-socias li{
+        display: inline-block;
+        margin-left: 5%;
+    }
+    #redes-socias li:hover{
+        display: inline-block;
+        margin-left: 5%;
+        color: #1DB954;
+        cursor: pointer;
+    }
+    #links-finais li{
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    #links-finais li:hover{
+
+        color: #1DB954;
+        cursor: pointer;
+    }
+    
+</style>
 </head>
 <body>
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark  "  style="background-color: #000; color: #fff;">
@@ -143,16 +316,208 @@
     <main>
         <section id="curta">
             <div class="row">
-                <div class="col-md-6">
-                    
+                <div class="col-md-7 ">
+
+                    <h1>
+                        Curta 3 meses de Premium grátis
+                    </h1>
+                    <h2>
+                        Curta músicas sem anúncios, no modo offline e muito mais. Cancele quando quiser.
+
+                    </h2>
+                    <button type="button" class="btn btn-dark">
+                        Ganhe 3 meses grátis
+                    </button>
+                    <br/>
+                    <span >
+                        Somente para o plano Individual. Depois, apenas R$ 16,90/mês. Oferta indisponível para usuários que já experimentaram o Premium.<u> Sujeita a Termos e Condições.</u> A oferta termina em 31 de dez de 2020.
+                    </span>
                 </div>
-                <div class="col-md-3">
-                    
+
+                <div class="col-md-5  pull-right" >
+                 <br/>
+                 <div class="col mx-auto d-none d-md-block text-right ">
+                     <img width="350px;" src="imagem/balao-curtir.png" class="img-responsive ">
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section id="conta">
+         <div class="row ">
+            <div id="painel-vertical"  class="col-md-3 d-none d-md-block ">
+                <div class=" img-user" >
+                    <div  class=" round-container text-center">
+                        <img  class="card-img-top img-responsive" src="data:image/jpeg;base64,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" alt="Card image cap">
+                    </div>
+
+
+                </div>
+                <div  class="list-group lista-group" >
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0 border-left-0 border-top-0">
+                        <i class="fas fa-home fa-lg"></i>&nbsp;&nbsp;&nbsp;Visão geral da conta - Spotify
+                    </a>
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0 border-left-0 border-top-0"><i class="far fa-edit fa-lg"></i>&nbsp;&nbsp;&nbsp;Editar perfil</a>
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0 border-left-0 border-top-0 "><i class="fas fa-lock fa-lg"></i>&nbsp;&nbsp;&nbsp;Mudar senha</a>
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0 border-left-0 border-top-0 "><i class="fas fa-bell fa-lg"></i>&nbsp;&nbsp;&nbsp;Configurar notificações</a>
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0 border-left-0 border-top-0 "><i class="fas fa-lock fa-lg"></i>&nbsp;&nbsp;&nbsp;Configurar de privacidade</a>
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0  border-right-0 border-left-0  border-top-0"><i class="fas fa-spinner fa-lg"></i></i>&nbsp;&nbsp;&nbsp;Recuperar playlists</a>
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0 border-left-0 border-top-0 "><i class="fas fa-lock fa-lg"></i>&nbsp;&nbsp;&nbsp;Recibos</a>
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0 border-left-0 border-top-0 "><i class="fas fa-rocket fa-lg"></i>&nbsp;&nbsp;&nbsp;Aplicativos</a>
+                    <a href="#" class="border border-secondary list-group-item list-group-item-action border-right-0 border-left-0 border-top-0 "><i class="fas fa-print"></i>&nbsp;&nbsp;&nbsp;Resgatar</a>
                 </div>
             </div>
-        </section>
-    </main>
+            <div class="col-md-8">
+                <section id="campos">
+                    <h1>
+                       Visão geral da conta
+                   </h1>
+                   <div id="formulario">
+                       <h2>Perfil</h2>
+
+                       <table class="table">
+                          <thead>
+
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="campo-tabela">Nome do usuário</th>
+                              <td>  sbt0bdnbrjuhjfderjhuy</td>
+
+                          </tr>
+                          <tr>
+                              <th scope="row" class="campo-tabela">E-mail</th>
+                              <td>johnwv@ymail.com</td>
+                          </tr>
+                          <tr>
+                              <th scope="row" class="campo-tabela">Data de nascimento</th>
+                              <td>14 de novembro de 2000</td>
+                          </tr>
+                          <tr>
+                              <th scope="row" class="campo-tabela">País ou região</th>
+                              <td>Brasil</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <br/>
+                  <br/>
+                  <button type="button" class="btn btn-outline-dark" style="border-radius: 25px;padding: 10px 30px 10px 30px;">EDITAR PERFIL</button>
+              </div>
+              <div class="">
+               <h2>Seu plano</h2>
+               <div >
+                <div id="plano" class="card" style="width: 90%; ">
+                  <div class="card-body">
+                    Spotify Free
+
+                </div>
+                <p id="ouca" class="card-text">Ouça música apenas em ordem aleatória e com anúncios.</p>
+                <hr/>
+                <h2 style="margin-left: 5%;">Grátis</h2>
+            </div>
+
+        </div>
+        <br/>
+        <br/>
+        <button type="button" class="btn btn-outline-dark" style="border-radius: 25px;padding: 10px 30px 10px 30px;">SEJA PREMIUM</button>
+    </div>
+
+    <div class="">
+       <h2>Saia em qualquer lugar</h2>
+       <div >
+        <p>Saia em tudo que o Spotify estiver aberto, inclusive na Web, no celular, no desktop ou em qualquer outro dispositivo.</p>
+        <div id="plano" class="card" style="width: 90%; ">
+
+            <p id="ouca" class="card-text">Aviso: não será feito logout de dispositivos parceiros, como aparelhos da Sonos ou PlayStation. Para saber mais sobre como sair do Spotify (ou desvinculá-lo) em um dispositivo parceiro, confira o manual do fabricante do dispositivo.</p>
+
+
+        </div>
+        <br/>
+        <br/>
+        <button type="button" class="btn btn-outline-dark" style="border-radius: 25px;padding: 10px 30px 10px 30px;">SAIR DE TODOS OS DISPOSITIVOS</button>
+    </div>
+    <br/>
+    <br/><br/>
+    <br/>
+
 </div>
+</section>
+</main>
+</div>
+<footer style="background-color: black;">
+   <div class="container">
+    <div id="links-footer" class="row">
+        <div class="col-md-2">
+            <span id="img-logo"></span>
+        </div>
+        <div class="col-md-2">
+
+            <div class=" lista-footer">
+                <a href="#" class="list-group-item list-group-item-action disabled  ">EMPRESA</a>
+                <a href="#" class="list-group-item list-group-item-action">Sobre</a>
+                <a href="#" class="list-group-item list-group-item-action">Empregos</a>
+                <a href="#" class="list-group-item list-group-item-action">For the Record</a>
+            </div>
+
+        </div>
+        <div class="col-md-2">
+
+
+            <div class=" lista-footer">
+                <a href="#" class="list-group-item list-group-item-action disabled">COMUNIDADES</a>
+                <a href="#" class="list-group-item list-group-item-action">Para Artistas</a>
+                <a href="#" class="list-group-item list-group-item-action">Desenvolvedores</a>
+                <a href="#" class="list-group-item list-group-item-action">Publicidade</a>
+                <a href="#" class="list-group-item list-group-item-action">Investidores</a>
+                <a href="#" class="list-group-item list-group-item-action">Fornecedores</a>
+            </div>
+
+        </div>
+        <div class="col-md-2">
+            <div class=" lista-footer">
+                <a href="#" class="list-group-item list-group-item-action disabled">LINKS ÚTEIS</a>
+                <a href="#" class="list-group-item list-group-item-action">Suporte</a>
+
+                <a href="#" class="list-group-item list-group-item-action">Player da Web</a>
+                <a href="#" class="list-group-item list-group-item-action">Aplicativo móvel grátis</a>
+                <a href="#" class="list-group-item list-group-item-action">Retrospectiva 2020</a>
+            </div>
+
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+
+            <ul id="redes-socias">
+                <li><i class="fab fa-twitter fa-3x"></i></li>
+                <li><i class="fab fa-facebook-f fa-3x""></i></li>
+                <li><i class="fab fa-instagram fa-3x""></i></li>
+            </ul>
+
+        </div>
+    </div>
+
+</div>
+<div class="row" style="margin-top: 10%;">
+  <div class="col-md-8">
+
+    <ul id="links-finais">
+        <li>Legal</li>
+        <li>Centro de Privacidade</li>
+        <li>Política de privacidade</li>
+        <li>Cookies</li>
+        <li>Sobre anúncios</li>
+    </ul>
+</div>
+<div class="col-md-2"></div>
+
+<div class="col-md-2">
+ <div class="text-left">
+    Brasil <img width="22" height="22" src="https://country-flags.scdn.co/flags/br.svg"><br/>
+    © 2020 Spotify Paraguaense
+</div>
+</div>
+</div>
+</footer>
+
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
